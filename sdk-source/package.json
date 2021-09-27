@@ -1,0 +1,17 @@
+{
+  "name": "sdk-source",
+  "version": "0.0.1",
+  "repository": "https://github.com/prokopsimek/sdk-demo",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
